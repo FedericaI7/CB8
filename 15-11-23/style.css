@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+button {
+  border: none;
+  background-color: #f9f5ea;
+  cursor: pointer;
+}
+
+body {
+  padding: 0 10px;
+  background-color: #5a5757;
+}
+
+/* ---CONTAINER ALL---  */
+.container--all {
+  background-color: #f9f5ea;
+  border-radius: 40px;
+  padding: 16px;
+  margin: 20px;
+}
+
+/* ----NAV---- */
+
+.container--nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h2 {
+  font-size: 24px;
+  width: 150px;
+}
+
+.nav-icons i {
+  padding-left: 26px;
+  font-size: 20px;
+}
+
+/* -------HEAD--------- */
+.container--head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  gap: 10px;
+}
+
+.icon-head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon-head i {
+  font-size: 20px;
+}
+
+.icon-head p {
+  font-weight: 500;
+}
+
+.icon-head-black {
+  background-color: rgb(0, 0, 0);
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.icon-head-black i {
+  background-color: rgb(0, 0, 0);
+  color: #f9f5ea;
+}
+.icon-head-black p {
+  color: #f9f5ea;
+}
+.icon-head-black button {
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+/* -----SECTION ROBO------ */
+
+h3 {
+  font-size: 18px;
+  /* padding: 20px 0; */
+  padding: 16px;
+  margin: 20px;
+}
+
+.robo-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding-bottom: 30px;
+}
+
+.robo {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #f9f5ea;
+  border-radius: 12px;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.25);
+}
+
+button .bi-heart {
+  position: absolute;
+  color: pink;
+  top: 18px;
+  right: 14px;
+  font-size: 20px;
+  color: rgb(199, 41, 41);
+  background-color: yellow;
+  padding: 6px;
+  border-radius: 50%;
+}
+button .bi-plus-lg {
+  position: absolute;
+  bottom: 10px;
+  right: 14px;
+  font-size: 20px;
+  color: rgb(199, 41, 41);
+  background-color: rgb(226, 226, 187);
+  padding: 6px;
+  border-radius: 20%;
+}
+
+/* bottone nero */
+.bi-heart-fill {
+  position: absolute;
+  color: pink;
+  top: 18px;
+  right: 14px;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  /* background-color: yellow; */
+  padding: 6px;
+  border-radius: 50%;
+}
+
+.robo img {
+  height: 180px;
+  width: 150px;
+  object-fit: cover;
+  padding: 20px;
+}
+
+.robo h4,
+p {
+  margin: 4px 0;
+  padding: 4px 0;
+}
+
+.robo .text {
+  padding: 0 10px;
+}
