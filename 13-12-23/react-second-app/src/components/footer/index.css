@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Footer {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 40px;
+  background-color: rgb(149, 209, 149);
+  padding: 20px;
+  flex-wrap: wrap;
+  color: #242424;
+}
+
+.Footer a {
+  color: #242424;
+}
+
+.box {
+  width: 25rem;
+}
+
+.Company__Products,
+.Company__links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.Company__Products h3,
+.Company__links h3 {
+  margin-bottom: 0.625rem;
+}
+
+@media screen and (min-width: 600px) {
+  .Footer {
+    flex-wrap: nowrap;
+  }
+}

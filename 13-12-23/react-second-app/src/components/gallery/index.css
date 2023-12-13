@@ -1,0 +1,12 @@
+.Gallery {
+  padding-top: 2.5rem;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.Gallery img {
+  width: 25rem;
+  object-fit: cover;
+}
