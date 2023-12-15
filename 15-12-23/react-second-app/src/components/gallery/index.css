@@ -1,0 +1,13 @@
+.Gallery {
+  padding-top: 2.5rem;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 5rem;
+}
+
+.Gallery img {
+  width: 25rem;
+  object-fit: cover;
+}
