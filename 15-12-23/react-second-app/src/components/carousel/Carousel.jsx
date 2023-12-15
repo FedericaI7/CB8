@@ -10,7 +10,7 @@ const Carousel = ({ pic }) => {
   };
 
   const prevSlide = () => {
-    setSlide((pic) => (pic === dataGallery.length - 1 ? 0 : pic + 1));
+    setSlide((pic) => (pic === dataGallery.length - 1 ? 0 : pic - 1));
   };
 
   return (
