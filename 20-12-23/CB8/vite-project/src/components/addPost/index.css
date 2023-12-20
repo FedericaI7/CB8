@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+
+.AddPost {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 30px 24px;
+  box-sizing: border-box;
+  box-shadow: -1px 0px 17px 0px rgba(0, 0, 0, 0.75);
+  margin-bottom: 100px;
+}
+
+.AddPost input,
+.AddPost textarea {
+  resize: none;
+  padding: 6px 12px;
+  border-radius: 8px;
+  border: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  outline: none;
+  background-color: rgb(253, 244, 230);
+}
+
+.AddPost__btns {
+  display: flex;
+  gap: 20px;
+}
+
+.AddPost__btns button,
+.AddPost__btns input {
+  border-radius: 10px;
+  width: 100%;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  color: rgb(35, 86, 196);
+  background-color: rgb(233, 233, 233);
+}
+
+.AddPost__btns input:hover,
+.AddPost__btns button:hover {
+  border: none;
+  color: rgb(0, 0, 0);
+}
