@@ -1,0 +1,13 @@
+.Todo {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+
+  img {
+    padding-top: 1.875rem;
+    padding-bottom: 1.875rem;
+    display: block;
+    width: 12.5rem;
+  }
+}

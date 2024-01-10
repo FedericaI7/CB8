@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Slab", serif;
+}
+
+body {
+  /* background-color: rgb(13 30 83); */
+  background-color: rgb(23, 13, 83);
+}

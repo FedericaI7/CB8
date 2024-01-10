@@ -1,0 +1,47 @@
+$text: rgb(226, 226, 226);
+$delete: rgb(11, 87, 173);
+
+@mixin componentListFlex {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.25rem;
+  color: $text;
+  padding-bottom: 1.25rem;
+}
+
+@mixin deletebtn {
+  color: $delete;
+  padding-left: 1.25rem;
+  font-size: 1.375rem;
+  cursor: pointer;
+
+  &:hover {
+    color: rgb(189, 39, 39);
+  }
+}
+
+@mixin listMapFlex {
+  display: flex;
+  box-sizing: border-box;
+  width: 80%;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.25rem;
+  background-color: rgb(15, 15, 46);
+  padding: 10px;
+  border-radius: 1rem;
+
+  &:hover {
+    background-color: rgb(26, 15, 46);
+  }
+}
+
+@mixin listMapFlexMediaQuery {
+  width: 43.75rem;
+  max-width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 16px;
+}

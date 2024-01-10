@@ -1,0 +1,22 @@
+@import "../mixin/mixin.scss";
+
+.List {
+  @include componentListFlex;
+}
+
+.deletebtn {
+  @include deletebtn;
+}
+
+.List__list {
+  @include listMapFlex;
+}
+
+@media screen and (min-width: 600px) {
+  .List {
+    width: 100%;
+  }
+  .List__list {
+    @include listMapFlexMediaQuery;
+  }
+}
