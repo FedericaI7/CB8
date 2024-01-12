@@ -1,0 +1,52 @@
+$grey-color: rgb(63, 62, 62);
+
+.Input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 2.5rem;
+  width: 100%;
+
+  .input_text {
+    width: 15rem;
+    height: 2.5rem;
+    padding: 8px;
+    font-size: 1rem;
+    border-radius: 10px 0px 0px 10px;
+    border: none;
+    outline: none;
+  }
+}
+
+.buttonClick {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  color: $grey-color;
+  border: none;
+  height: 2.5rem;
+  width: 5rem;
+  border-radius: 0px 10px 10px 0px;
+  font-weight: 500;
+  font-size: 1rem;
+  color: rgb(98, 0, 255);
+
+  &:hover {
+    color: rgb(22, 163, 219);
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .Input {
+    .input_text {
+      width: 26rem;
+      padding: 0.75rem;
+      font-size: 1.125rem;
+    }
+    .buttonClick {
+      padding: 0.625rem;
+      font-size: 1.3125rem;
+    }
+  }
+}

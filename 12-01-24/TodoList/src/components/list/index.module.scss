@@ -1,0 +1,30 @@
+@import "../mixin/mixin.scss";
+
+.List {
+  @include componentListFlex;
+}
+
+.deletebtn {
+  @include deletebtn;
+}
+
+.listMap {
+  @include listMapFlex;
+}
+
+.checkbox {
+  @include checkBox;
+}
+
+.flex {
+  @include simpleFlex;
+}
+
+@media screen and (min-width: 600px) {
+  .List {
+    width: 100%;
+  }
+  .listMap {
+    @include listMapFlexMediaQuery;
+  }
+}
