@@ -1,0 +1,24 @@
+.navbar {
+  background-color: #0f1413;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.25rem 2.5rem;
+}
+
+.img {
+  width: 2.5rem;
+}
+
+.right {
+  display: flex;
+  gap: 2.5rem;
+
+  .about,
+  .contacts {
+    color: rgb(192, 196, 255);
+    &:hover {
+      color: rgb(224, 221, 34);
+    }
+  }
+}
