@@ -1,0 +1,46 @@
+.BookList {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+
+  .title {
+    font-family: "Cormorant Garamond", serif;
+    color: #2d2926;
+  }
+
+  .list {
+    height: 16.25rem;
+    padding: 1.25rem 0 0.625rem;
+    display: flex;
+    gap: 1.25rem;
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scrollbar-color: transparent transparent;
+
+    &::-webkit-scrollbar {
+      width: 0.75rem;
+      height: 0.75rem;
+      scrollbar-width: thin;
+      cursor: pointer;
+    }
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .BookList {
+    padding-bottom: 2.5rem;
+
+    ::-webkit-scrollbar-track {
+      background: rgba(189, 151, 151, 0.664);
+      border: 4px solid transparent;
+      background-clip: content-box;
+      cursor: pointer;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: rgb(206, 202, 202);
+      border-radius: 5px;
+    }
+  }
+}

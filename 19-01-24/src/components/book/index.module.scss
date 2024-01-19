@@ -1,0 +1,58 @@
+.Book {
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  width: 12.5rem;
+  height: 13.75rem;
+  padding: 0.75rem;
+  // background-color: rgba(175, 202, 200, 0.548);
+  background-color: rgba(175, 202, 200, 0.322);
+  // background-color: rgba(242, 248, 159, 0.466);
+  border-radius: 0.875rem;
+  font-size: 0.8rem;
+  transition: background 0.35s;
+  cursor: pointer;
+
+  a {
+    color: black;
+    text-decoration: none;
+  }
+
+  &:hover {
+    background-color: rgb(231, 108, 108);
+  }
+
+  .image {
+    width: 6.875rem;
+    height: 10rem;
+    object-fit: cover;
+    border-radius: 14px;
+    transform: translate(-0px, -30px);
+  }
+
+  .title {
+    margin-top: -25px;
+    font-weight: 800;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 16px;
+    text-align: center;
+    line-height: 0.9;
+    // color: #c6322f;
+    // color: #0c2ab1;
+    color: #b11f0c;
+    padding-bottom: 5px;
+  }
+
+  .author {
+    font-size: 0.6rem;
+    // margin: 4px 0;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    color: #2d2926;
+  }
+}
+body {
+  background-color: #fffbf6;
+}
