@@ -1,0 +1,193 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+
+.Info {
+  font-family: "Roboto", sans-serif;
+  background-color: rgba(224, 224, 224, 0.514);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  a {
+    color: rgb(54, 53, 53);
+    padding-left: 16px;
+
+    &:hover {
+      color: rgb(0, 38, 255);
+    }
+  }
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.title {
+  line-height: 1.3;
+  color: rgb(0, 38, 255);
+  font-size: 20px;
+}
+
+.subTitle {
+  text-align: center;
+}
+
+.imageInfo {
+  width: 250px;
+  height: auto;
+  box-shadow: -5px 0px 8px 4px rgba(158, 158, 158, 0.452);
+  border-radius: 10px;
+  object-fit: contain;
+  margin-top: 20px;
+}
+
+//start expander
+
+.containerExpanders {
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+}
+
+.expander {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  width: 300px;
+  height: auto;
+  background-color: rgb(255, 255, 255);
+  box-shadow: -5px 0px 10px 0px rgba(158, 158, 158, 0.185);
+
+  .arrowIcon {
+    cursor: pointer;
+  }
+
+  .bi {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 18px;
+    margin: 0;
+  }
+
+  p {
+    font-size: 16px;
+    font-weight: normal;
+    padding: 0;
+  }
+
+  button {
+    background-color: rgb(49, 46, 228);
+    border: none;
+    padding: 10px 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    cursor: pointer;
+  }
+}
+
+.line {
+  margin-top: 30px;
+  border-top: 1px solid rgb(160, 160, 160);
+  width: 100%;
+}
+
+.textInsideExpander {
+  position: absolute;
+  top: 30px;
+  line-height: 1.6;
+  left: 0;
+  width: 300px;
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+}
+
+.infoBanner {
+  margin-top: 30px;
+  border-left: 10px solid rgb(61, 61, 61);
+  width: 300px;
+  background-color: rgb(255, 255, 255);
+
+  p {
+    padding: 16px;
+    font-size: 16px;
+    line-height: 1.4;
+  }
+  .nota {
+    font-weight: bold;
+    color: rgb(32, 32, 32);
+  }
+}
+
+.infoText {
+  margin-top: 30px;
+  border-left: 10px solid rgb(255, 255, 255);
+  width: 300px;
+  background-color: rgb(255, 255, 255);
+
+  p {
+    font-size: 16px;
+    line-height: 1.4;
+    padding: 10px;
+  }
+}
+
+///--------MEDIA QUERY--------
+
+@media screen and (min-width: 600px) {
+  .Info {
+    display: block;
+    padding: 30px 100px;
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .subTitle {
+    text-align: left;
+  }
+
+  .imageInfo {
+    width: 600px;
+    height: 500px;
+    margin-top: 0;
+  }
+
+  //start expander
+
+  .expander {
+    align-items: flex-start;
+    justify-content: start;
+    padding: 20px 30px;
+  }
+
+  .textInsideExpander {
+    top: 40px;
+    left: 0;
+    padding: 20px 30px;
+  }
+
+  .infoBanner {
+    width: 600px;
+  }
+
+  .infoText {
+    width: 600px;
+
+    p {
+      padding: 16px;
+    }
+  }
+}
