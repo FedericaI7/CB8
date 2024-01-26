@@ -1,0 +1,17 @@
+.containerInput {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto 0;
+  padding-top: 3.125rem;
+}
+
+.inputConfetti {
+  width: 18.75rem;
+  height: 1.875rem;
+  padding-left: 0.5rem;
+  z-index: 2;
+  border: none;
+  outline: none;
+  font-size: 1.25rem;
+}

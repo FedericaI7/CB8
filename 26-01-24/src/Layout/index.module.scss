@@ -1,0 +1,30 @@
+.Container {
+  margin: 0;
+  padding: 0;
+}
+
+.Layout {
+  margin: 0;
+  padding: 0;
+  padding: 1.875rem;
+  background-color: black;
+}
+
+.containerList {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+
+  a {
+    color: rgb(214, 214, 214);
+    font-weight: bold;
+  }
+}
+
+@media (min-width: 600px) {
+  .containerList {
+    width: 25rem;
+  }
+}

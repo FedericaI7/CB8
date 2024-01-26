@@ -1,0 +1,57 @@
+.Contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+  padding-top: 0.625rem;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1.875rem;
+  background-color: #001a23;
+  padding: 1.875rem;
+  border-radius: 0.625rem;
+  width: 17.5rem;
+
+  input {
+    width: 18.75rem;
+    height: 1.875rem;
+    border: none;
+    outline: none;
+    padding-left: 0.625rem;
+  }
+
+  textarea {
+    resize: none;
+    border: none;
+    outline: none;
+    width: 18.75rem;
+    height: 12.5rem;
+  }
+
+  input[type="submit"] {
+    width: 6.25rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    cursor: pointer;
+  }
+}
+
+@media (min-width: 600px) {
+  .Contact {
+    form {
+      width: 25rem;
+
+      input {
+        width: 25rem;
+      }
+    }
+  }
+}
