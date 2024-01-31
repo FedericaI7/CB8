@@ -1,0 +1,66 @@
+.Home {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(121, 121, 121, 0.247);
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  align-items: center;
+  padding-top: 2.5rem;
+  padding-bottom: 1.25rem;
+  margin: 0;
+  width: 100vw;
+  height: 100%;
+  min-height: 100vh;
+  width: 100%;
+
+  input[type="text"] {
+    width: 15rem;
+    height: 1.875rem;
+    padding-left: 0.5rem;
+    outline: none;
+    border: none;
+    background-color: beige;
+  }
+
+  input[type="submit"] {
+    height: 1.875rem;
+    background-color: black;
+    border: none;
+    color: white;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  li {
+    width: 16.25rem;
+    font-size: 1rem;
+    line-height: 1.4;
+    font-family: "Merriweather", serif;
+    padding: 0;
+    margin: 0;
+  }
+
+  .title {
+    font-size: 1.375rem;
+    font-weight: 800;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .main {
+    input[type="text"] {
+      width: 21.875rem;
+    }
+
+    li {
+      width: 42.5rem;
+    }
+    .title {
+      font-size: 1.875rem;
+    }
+  }
+}
