@@ -1,0 +1,40 @@
+.containerMenu {
+  max-width: 100%;
+  transition: width 0.3s ease-in;
+  z-index: 5;
+}
+
+.containerListItem {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5625rem;
+  padding-left: 2.5rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  background-color: var(--text-g-color-dark);
+  right: 0;
+  width: 14.375rem;
+  height: 31.25rem;
+  padding-top: 1.875rem;
+  z-index: 3;
+}
+
+.itemList {
+  cursor: pointer;
+  color: var(--name-color);
+  font-size: 1.125rem;
+  font-weight: bold;
+  z-index: 3;
+
+  &:hover {
+    color: var(--red-color);
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .containerListItem {
+    width: 25rem;
+    padding-left: 4.375rem;
+  }
+}
