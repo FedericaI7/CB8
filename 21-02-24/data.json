@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "title": "Smartphone",
+    "description": "Un telefono intelligente con ottime prestazioni.",
+    "price": 499.99
+  },
+  {
+    "id": 2,
+    "title": "Laptop",
+    "description": "Un potente laptop per le tue esigenze di lavoro e di svago.",
+    "price": 1099.99
+  },
+  {
+    "id": 3,
+    "title": "Scarpe da corsa",
+    "description": "Scarpe leggere e comode per correre.",
+    "price": 89.99
+  },
+  {
+    "id": 4,
+    "title": "Felpa con cappuccio",
+    "description": "Una felpa comoda e calda per l'autunno e l'inverno.",
+    "price": 39.99
+  },
+  {
+    "id": 5,
+    "title": "Tastiera meccanica",
+    "description": "Una tastiera meccanica di alta qualità per il gaming e la produttività.",
+    "price": 129.99
+  },
+  {
+    "id": 6,
+    "title": "Occhiali da sole",
+    "description": "Occhiali da sole alla moda per proteggere gli occhi dai raggi UV.",
+    "price": 59.99
+  },
+  {
+    "id": 7,
+    "title": "Libro di fantascienza",
+    "description": "Un'avventura epica nello spazio profondo.",
+    "price": 14.99
+  },
+  {
+    "id": 8,
+    "title": "Set di pentole",
+    "description": "Un set completo di pentole di alta qualità per cucinare.",
+    "price": 199.99
+  },
+  {
+    "id": 9,
+    "title": "Cuffie wireless",
+    "description": "Cuffie di alta qualità per goderti la tua musica senza fili.",
+    "price": 79.99
+  },
+  {
+    "id": 10,
+    "title": "Borsa da viaggio",
+    "description": "Una borsa resistente e spaziosa per i tuoi viaggi.",
+    "price": 149.99
+  }
+]
