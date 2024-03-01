@@ -1,0 +1,27 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>People</title>
+  </head>
+  <body>
+    <div>
+      <h3>Names: </h3>
+      {{#each data}}
+        {{this.nome}}
+      {{/each}}
+    </div>
+    <div>
+      <h3>City:</h3>
+      {{#each data}}
+        {{this.città}}
+      {{/each}}
+    </div>
+    <div>
+      {{#if myFriends}}
+        <h4>They are my friends</h4>
+      {{/if}}
+    </div>
+    {{> footer}}
+  </body>
+</html>

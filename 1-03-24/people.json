@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "nome": "Mario",
+    "cognome": "Rossi",
+    "età": 35,
+    "professione": "Ingegnere",
+    "città": "Roma"
+  },
+  {
+    "id": 2,
+    "nome": "Anna",
+    "cognome": "Verdi",
+    "età": 28,
+    "professione": "Avvocato",
+    "città": "Milano"
+  },
+  {
+    "id": 3,
+    "nome": "Luca",
+    "cognome": "Bianchi",
+    "età": 40,
+    "professione": "Medico",
+    "città": "Napoli"
+  },
+  {
+    "id": 4,
+    "nome": "Giulia",
+    "cognome": "Neri",
+    "età": 22,
+    "professione": "Studentessa",
+    "città": "Firenze"
+  },
+  {
+    "id": 5,
+    "nome": "Marco",
+    "cognome": "Gialli",
+    "età": 45,
+    "professione": "Imprenditore",
+    "città": "Torino"
+  },
+  {
+    "id": 6,
+    "nome": "Sara",
+    "cognome": "Rosa",
+    "età": 30,
+    "professione": "Insegnante",
+    "città": "Bologna"
+  },
+  {
+    "id": 7,
+    "nome": "Alessio",
+    "cognome": "Marrone",
+    "età": 33,
+    "professione": "Architetto",
+    "città": "Genova"
+  },
+  {
+    "id": 8,
+    "nome": "Martina",
+    "cognome": "Blu",
+    "età": 26,
+    "professione": "Programmatrice",
+    "città": "Palermo"
+  },
+  {
+    "id": 9,
+    "nome": "Giovanni",
+    "cognome": "Viola",
+    "età": 38,
+    "professione": "Banchiere",
+    "città": "Bari"
+  },
+  {
+    "id": 10,
+    "nome": "Elisa",
+    "cognome": "Arancione",
+    "età": 31,
+    "professione": "Psicologa",
+    "città": "Catania"
+  }
+]
