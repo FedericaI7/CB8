@@ -28,7 +28,7 @@ app.get("/people", (req, res) => {
 app.get("/jobs", (req, res) => {
   res.render("jobs", {
     data: people,
-    hobbyes: ["dance", "play piano", "gardens", "fragrances"],
+    hobbies: ["dance", "play piano", "gardens", "fragrances"],
   });
 });
 
