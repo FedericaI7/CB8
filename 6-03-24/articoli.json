@@ -1,0 +1,53 @@
+[
+  {
+    "categoria": "uomo",
+    "articoli": [
+      {
+        "id": "UOMO001",
+        "descrizione": "T-shirt uomo nera",
+        "prezzo": 20.99,
+        "taglie_disponibili": ["S", "M", "L", "XL"]
+      },
+      {
+        "id": "UOMO002",
+        "descrizione": "T-shirt uomo blu",
+        "prezzo": 22.5,
+        "taglie_disponibili": ["S", "M", "L", "XL"]
+      }
+    ]
+  },
+  {
+    "categoria": "donna",
+    "articoli": [
+      {
+        "id": "DONNA001",
+        "descrizione": "T-shirt donna bianca",
+        "prezzo": 18.5,
+        "taglie_disponibili": ["XS", "S", "M", "L"]
+      },
+      {
+        "id": "DONNA002",
+        "descrizione": "T-shirt donna rossa",
+        "prezzo": 19.99,
+        "taglie_disponibili": ["S", "M", "L"]
+      }
+    ]
+  },
+  {
+    "categoria": "bambino",
+    "articoli": [
+      {
+        "id": "BAMBINO001",
+        "descrizione": "T-shirt bambino a righe",
+        "prezzo": 12.99,
+        "taglie_disponibili": ["2T", "3T", "4T", "5T"]
+      },
+      {
+        "id": "BAMBINO002",
+        "descrizione": "T-shirt bambino blu",
+        "prezzo": 11.5,
+        "taglie_disponibili": ["2T", "3T", "4T"]
+      }
+    ]
+  }
+]
